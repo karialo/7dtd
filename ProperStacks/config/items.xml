@@ -6,7 +6,7 @@
 
 <!-- Cash -->
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
-	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">50000</set>
+	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">30000</set>
 
 <!-- Ammo Related -->
 	<set xpath="/items/item[starts-with(@name, 'ammo9mmBullet')]/property[@name='Stacknumber']/@value">100</set>
