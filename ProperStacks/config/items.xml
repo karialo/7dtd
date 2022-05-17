@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+<!-- Setting all items to stacksize 1 -->
+	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">1</set>	
+
+<!-- Cash -->
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">50000</set>
+
+<!-- Ammo Related -->
+	<set xpath="/items/item[starts-with(@name, 'ammo9mmBullet')]/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[starts-with(@name, 'ammo44MagnumBullet')]/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[starts-with(@name, 'ammo762mmBullet')]/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoShotgun')]/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoBlunderbuss')]/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoJunkTurretRegular')]/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoJunkTurret')]/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoRocket')]/property[@name='Stacknumber']/@value">5</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoArrow')]/property[@name='Stacknumber']/@value">25</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoCrossbowBolt')]/property[@name='Stacknumber']/@value">25</set>
+	<set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">5</set>
+	<set xpath="/items/item[starts-with(@name, 'ammoDart')]/property[@name='Stacknumber']/@value">25</set>
+	<set xpath="/items/item[@name='resourceBullet']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[starts-with(@name='resourceArrowHead')]/property[@name='Stacknumber']/@value">25</set>
+
+<!-- Schematics (rolled up blueprints ;) ) -->
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
+
+<!-- Generic Resources & Crops -->
+	<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">50</set>
+	<set xpath="/items/item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">25</set>
+	<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">25</set>
+	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">50</set>
+	<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourceBuckshot']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourceNail']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourceBioFuel']/property[@name='Stacknumber']/@value">100</set>
+	<set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceGoldNugget']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceRawDiamond']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">10000</set>
+
+<!-- Repair Kits -->
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">5</set>
+	<set xpath="/items/item[@name='questRepairKit']/property[@name='Stacknumber']/@value">4</set>
+
+	<set xpath="/items/item[@name='resourceLockPick']/property[@name='Stacknumber']/@value">20</set>
+
+	
+</configs>

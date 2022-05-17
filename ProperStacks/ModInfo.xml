@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="ProperStacks" />
+		<Description value="Gives a more realistic carrying capacity... time to play some inventory tetris!" />
+		<Author value="Viking"/>
+		<Version value="V1" />
+		<Website value="" />
+	</ModInfo>
+</xml>

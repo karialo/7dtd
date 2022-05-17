@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="LootStacksDontBreak" />
+		<Description value="Stops loot piles from breaking; Meds, Ammo, Books, etc." />
+		<Author value="Viking"/>
+		<Version value="V1" />
+		<Website value="" />
+	</ModInfo>
+</xml>

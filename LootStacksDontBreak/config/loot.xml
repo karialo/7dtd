@@ -1,0 +1,32 @@
+<configs>
+
+<!-- Ammo Piles -->
+   <set xpath="lootcontainers/lootcontainer[@name='ammoPileSmall']/@destroy_on_close">false</set>
+   <set xpath="lootcontainers/lootcontainer[@name='ammoPileMed']/@destroy_on_close">false</set>
+   <set xpath="lootcontainers/lootcontainer[@name='ammoPileLarge']/@destroy_on_close">false</set>
+   
+<!-- Food Piles -->  
+   <set xpath="lootcontainers/lootcontainer[@name='foodPileSmall']/@destroy_on_close">false</set>
+   <set xpath="lootcontainers/lootcontainer[@name='foodPileMed']/@destroy_on_close">false</set>
+   <set xpath="lootcontainers/lootcontainer[@name='foodPileLarge']/@destroy_on_close">false</set>
+   
+<!-- Meds Piles -->  
+   <set xpath="lootcontainers/lootcontainer[@name='medicalPileSmall']/@destroy_on_close">false</set>
+   <set xpath="lootcontainers/lootcontainer[@name='medicalPileMedium']/@destroy_on_close">false</set>
+   <set xpath="lootcontainers/lootcontainer[@name='medicalPileLarge']/@destroy_on_close">false</set>
+   
+<!-- Chemical Piles -->
+   <set xpath="lootcontainers/lootcontainer[@name='chemPileSmall']/@destroy_on_close">false</set>
+   <set xpath="lootcontainers/lootcontainer[@name='chemPileMed']/@destroy_on_close">false</set>  
+   <set xpath="lootcontainers/lootcontainer[@name='chemPileLarge']/@destroy_on_close">false</set>
+   
+<!-- Book Piles -->
+   <set xpath="lootcontainers/lootcontainer[@name='bookPile']/@destroy_on_close">false</set>
+
+<!-- Carboard Boxes -->
+   <set xpath="lootcontainers/lootcontainer[@name='cardboardBox']/@destroy_on_close">false</set>
+
+
+
+
+</configs>
