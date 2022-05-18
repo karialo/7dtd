@@ -22,17 +22,12 @@
 	<set xpath="/items/item[starts-with(@name, 'thrown')]/property[@name='Stacknumber']/@value">5</set>
 	<set xpath="/items/item[starts-with(@name, 'ammoDart')]/property[@name='Stacknumber']/@value">25</set>
 	<set xpath="/items/item[@name='resourceBullet']/property[@name='Stacknumber']/@value">100</set>
-	<set xpath="/items/item[starts-with(@name='resourceArrowHead')]/property[@name='Stacknumber']/@value">25</set>
 
 <!-- Schematics (rolled up blueprints ;) ) -->
 	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">10</set>
 
 <!-- Generic Resources & Crops -->
 	<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">50</set>
-	<set xpath="/items/item[starts-with(@name, 'resourceCrop')]/property[@name='Stacknumber']/@value">25</set>
-	<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">25</set>
-	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">50</set>
-	<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber']/@value">100</set>
 	<set xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='Stacknumber']/@value">100</set>
 	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber']/@value">100</set>
 	<set xpath="/items/item[@name='resourceBuckshot']/property[@name='Stacknumber']/@value">100</set>
